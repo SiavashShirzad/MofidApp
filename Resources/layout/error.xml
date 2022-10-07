@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:text="لطفا خطای رخ داده را با ذکر محل و اعداد وارد شده وارد نمایید و دکمه ی ارسال را فشار دهید . با تشکر"       
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textView1" />
+
+    <TextView
+        android:text="siavash_shirzad_1995@yahoo.com"
+         android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="Error sent from android App"
+         android:layout_margin="10dp"       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1" />
+    <Button
+        android:text="ارسال"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cal" />
+    <Button
+        android:text="back"
+        android:background="@drawable/button"
+       android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back" />
+    
+
+
+
+
+
+
+</LinearLayout>
