@@ -1,7 +1,7 @@
 # MofidApp
-Android application for manitoring growth health in children between 2 and 18 years old
+Android application for monitoring growth health in children between 2 and 18 years old
 
-Evaluations are based on WHO guidlines for children between 2 and 18 .
+Evaluations are based on WHO guidlines.
 
 This app is available for free in the google play platform for android devices
 
