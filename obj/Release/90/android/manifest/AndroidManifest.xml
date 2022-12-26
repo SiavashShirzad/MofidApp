@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="MofidChildrenHospital.mofidapp" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <application android:allowBackup="true" android:icon="@mipmap/logo" android:label="MOFID" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.support.multidex.MultiDexApplication" android:extractNativeLibs="true">
+    <activity android:label="ceators" android:name="crc64754841ac4bace57a.ceators" />
+    <activity android:label="error" android:name="crc64754841ac4bace57a.error" />
+    <activity android:label="MOFID" android:name="crc64754841ac4bace57a.info" />
+    <activity android:icon="@drawable/icon" android:label="MOFID" android:noHistory="true" android:name="crc64754841ac4bace57a.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="MOFID" android:name="crc64754841ac4bace57a.MainActivity" />
+    <activity android:label="Growth standards" android:name="crc64754841ac4bace57a.pediometry1" />
+    <activity android:label="Blood Pressure" android:name="crc64754841ac4bace57a.pediometry2" />
+    <activity android:label="refrences" android:name="crc64754841ac4bace57a.refrences" />
+    <provider android:name="mono.android.MultiDexLoader" android:exported="false" android:initOrder="1999999999" android:authorities="MofidChildrenHospital.mofidapp.mono.android.MultiDexLoader.__mono_init__" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999998" android:authorities="MofidChildrenHospital.mofidapp.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

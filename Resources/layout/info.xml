@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <Button
+        android:text="منابع"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/button1"
+        android:backgroundTintMode="src_in"
+        android:textStyle="bold"
+        android:background="@drawable/button" />
+
+
+    <Button
+        android:text="گزارش خطا"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="30sp"
+        
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/button3"
+        android:textStyle="bold"
+        android:background="@drawable/button" />
+    <Button
+        android:text="ارتباط با ما"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="30sp"
+    
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/button4"
+        android:textStyle="bold"
+        android:background="@drawable/button" />
+     <Button
+        android:text="صفحه ی اصلی"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="30sp"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/back"
+        android:textStyle="bold"
+        android:background="@drawable/button" />
+
+</LinearLayout>

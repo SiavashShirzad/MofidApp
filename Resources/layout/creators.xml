@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:text="Dr Ali akbar sayyari"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textV" />
+    <TextView
+        android:text="Dr Ali akbar sayyari"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:autoLink="email"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:text="Dr Siavash shirzadeh"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+    <TextView
+        android:text="Dr Siavash shirzadeh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:autoLink="email"
+        android:clickable="true"
+        android:id="@+id/textView5" />
+    <TextView
+        android:text="Dr Masoud khorshidi"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textVdwasiew8" />
+    <TextView
+        android:text="Dr Masoud khorshidi"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:autoLink="email"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="Dr Fatemeh siavashi"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/texew2" />
+    <TextView
+        android:text="Dr Fatemeh siavashi"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:autoLink="email"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="Dr Beheshteh olang"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textVasdiew3" />
+    <TextView
+        android:text="Dr Beheshteh olang"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:autoLink="email"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+   
+      <TextView
+        android:text="Dr Amir Hosseini"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:autoLink="email"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView30" />
+      
+      <TextView
+        android:text="Dr Amir Hosseini"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:autoLink="email"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+        <TextView
+        android:text="Nutritional Department, Undetsecretary for Public Health, Ministry of Health and Medical Education"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:autoLink="email"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView230" />
+        <TextView
+        android:text="Dr Amir Hossein Aghdaei"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:autoLink="email"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20" />
+    <Button
+        android:text="back"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/button1" />
+
+</LinearLayout>
